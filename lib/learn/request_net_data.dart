@@ -53,9 +53,9 @@ class _SampleAppPageState extends State<SampleAppPage> {
       child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            prizes[i].img_path != null
+            prizes[i].imgPath != null
                 ? Image.network(
-                    prizes[i].img_path,
+                    prizes[i].imgPath,
                     width: 350,
                     height: 350,
                   )
@@ -72,7 +72,6 @@ class _SampleAppPageState extends State<SampleAppPage> {
     setState(() {
       prizeData = PrizeData.json(response.body);
       prizes = prizeData.data.prize;
-      print("data---${prizes[0].img_path}");
     });
   }
 }

@@ -37,12 +37,12 @@ Prize _$PrizeFromJson(Map<String, dynamic> json) {
   return Prize(
     id: json['id'] as int,
     name: json['name'] as String,
-    img_path: json['img_path'] as String,
+    imgPath: json['img_path'] as String,
   );
 }
 
 Map<String, dynamic> _$PrizeToJson(Prize instance) => <String, dynamic>{
       'id': instance.id,
       'name': instance.name,
-      'img_path': instance.img_path,
+      'img_path': instance.imgPath,
     };

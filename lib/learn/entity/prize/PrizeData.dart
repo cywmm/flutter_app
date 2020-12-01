@@ -40,10 +40,11 @@ class Data {
 class Prize {
   final int id;
   final String name;
-  final String img_path;
+  @JsonKey(name: 'img_path')
+  final String imgPath;
 
 
-  Prize({this.id, this.name, this.img_path});
+  Prize({this.id, this.name, this.imgPath});
 
   factory Prize.fromJson(Map<String, dynamic> json) => _$PrizeFromJson(json);
 
