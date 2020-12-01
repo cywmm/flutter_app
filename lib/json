@@ -1,0 +1,49 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "event": {
+      "id": 1,
+      "title": "大转盘抽奖",
+      "start_time": "2020-11-24 00:00:00",
+      "end_time": "2020-12-01 00:00:00",
+      "enable": 1,
+      "description": "大转盘抽奖",
+      "joined": 36,
+      "joined_show": true,
+      "every_day_limit": 1,
+      "event_time_range_limit": 3,
+      "receive_prize_rules": "每人每天限抽一次,兑奖有效期为1天",
+      "prize_invalid_time": 1,
+      "command": "d3b99a",
+      "created_at": "2020-11-24 09:38:14",
+      "updated_at": "2020-11-27 16:29:12"
+    },
+    "prize": [
+      {
+        "id": 1,
+        "event_id": 1,
+        "goods_id": 688,
+        "name": "日本虎牌A36C",
+        "img_path": "https:\/\/shop-gy.oss-cn-shanghai.aliyuncs.com\/images\/2020-09-30\/AbfiK8W3XkGNRhSdiGHDm6NWGN6B6R5m.png",
+        "stock": 1,
+        "prize_level": 1,
+        "hit_ratio": 50,
+        "created_at": "2020-11-24 10:00:16",
+        "updated_at": "2020-11-26 09:39:01",
+        "level_desc": "一等奖"
+      },
+      {
+        "id": 3,
+        "event_id": 1,
+        "goods_id": 689,
+        "name": "虎牌A48C",
+        "img_path": "https:\/\/shop-gy.oss-cn-shanghai.aliyuncs.com\/images\/2020-09-30\/28mdzhy6yQzNEEfb5PyRMARXNm6hWmXW.png",
+        "stock": 1,
+        "prize_level": 2,
+        "hit_ratio": 500,
+        "created_at": "2"
+      }
+    ]
+  }
+}
