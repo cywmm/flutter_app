@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'entity/prize/PrizeData.dart';
+import 'net/api.dart';
 
 class GetNetData extends StatelessWidget {
   @override
